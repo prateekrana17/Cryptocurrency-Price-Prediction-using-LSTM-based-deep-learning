@@ -1,0 +1,30 @@
+1) Make sure you have python and the following python libraries/packages installed: 
+
+numpy
+pandas
+matplotlib
+keras
+tensorflow
+pandas-datareader
+scikit-learn or sklearn
+
+If you don't have some of the packages installed, open command prompt/terminal and type : pip install package_name
+
+2) Make sure you have an internet connection
+
+
+3) Select the cryptocurrency whose price you want to predict by chaning the value of the varible "curr_crypto". 
+ 
+By default it is set to curr_crypto='ETH' for Ethereum price prediction. You can change it to:
+
+curr_crypto='BTC' for Bitcoin, curr_crypto='XRP' for Ripple or curr_crypto='XMR' for Monero.
+
+
+4) You can also change the currency against which the cryptocurrency prices are predicted, by default is is set to 'GBP'
+This can be changed by changing the value of the variable "curr_against".
+
+Example: curr_against='USD' for US dollars.
+
+5) Run the python script "CryptoPrediction.py" and please wait to get the results.
+
+Thanks!
